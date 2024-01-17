@@ -6,15 +6,15 @@ h1 {
 }
 
 body {
-    background: linear-gradient(to left top, #ff8ba7, #6246ea);
+    background: linear-gradient(to left top, #078080, #fde24f);
 }
 
 .block {
     display: flex;
-    justify-content: flex-start;
     margin: auto;
     border-radius: 30px;
-    width: min(75%, 500px);
+    height: 300px;
+    width: auto;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 1.5);
 }
 
@@ -23,18 +23,4 @@ h2 {
     font-family: 'Rubik Doodle Shadow', serif;
     font-size: 2rem;
     font-weight: bold;
-}
-
-#menu {
-    margin-top: 2rem;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color: #f6d0eb;
-}
-
-.recipe {
-    list-style-type: none;
-    padding: 5px;
-    font-size: 1.5rem;
 }
