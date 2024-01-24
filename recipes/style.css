@@ -24,3 +24,12 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.box {
+    margin: auto;
+    border-radius: 30px;
+    height: auto;
+    width: 1000px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1.5);
+    padding: 20px;
+}
